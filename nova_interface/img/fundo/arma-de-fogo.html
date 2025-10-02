@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Remover branco visualmente</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      height: auto;
+      /* "Remove" branco visualmente */
+      mix-blend-mode: multiply; 
+    }
+  </style>
+</head>
+<body>
+  <img src="arma-de-fogo.png" alt="Arma de fogo">
+</body>
+</html>
